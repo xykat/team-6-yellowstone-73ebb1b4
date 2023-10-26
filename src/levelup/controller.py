@@ -15,7 +15,7 @@ class GameStatus:
     move_count: int = 0
 
 class Direction(Enum):
-    NORTH = "n"
+    NORTH = "git n"
     SOUTH = "s"
     EAST = "e"
     WEST = "w"
@@ -63,3 +63,16 @@ class GameController:
         return -10
 
     
+#     def __init__(self):
+#         self.name = None  # Initialize the name attribute
+    
+#     def get_user_input(self, prompt):
+#         user_input = input(prompt)
+#         return user_input
+
+# # Create an instance of the class
+# input_handler = Character()
+
+# # Show to the user and collect the data
+# user_text = input_handler.get_user_input("Enter the name of your character: ")
+# print("You entered: ", user_text)
