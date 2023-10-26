@@ -1,7 +1,7 @@
 class gamemap:
 
     def getPositions(self):
-        print("This is classa method.")
+        print("This is getPositions method.")
 
     def calculateValidatePositions(self):
         GRID_SIZE = 10
