@@ -7,8 +7,8 @@ class Character:
     #     return user_input
 
 # Create an instance of the class
-    input_handler = Character()
+   # input_handler = Character()
 
 # Show to the user and collect the data
-user_text = input_handler.get_user_input("Enter the name of your character: ")
-print("You entered: ", user_text)
+    #user_text = input_handler.get_user_input("Enter the name of your character: ")
+    print("You entered: ", user_text)
