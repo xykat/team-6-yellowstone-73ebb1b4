@@ -22,7 +22,8 @@ Move character
     Initialize character xposition with  ${startingX}
     Initialize character yposition with  ${startingY}
     Initialize character moveCount with  ${startingMoveCount}
-    Move in direction                    ${direction}
+    Move in direction  
+                  ${direction}
     Character xposition should be        ${endingX}
     Character yposition should be        ${endingY}
-    Character moveCount should be        ${endingMoveCount}
+    Character moveCount should be        ${endingMoveCount} 
