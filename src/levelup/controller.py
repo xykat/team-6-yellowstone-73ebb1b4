@@ -14,7 +14,7 @@ class GameStatus:
     move_count: int = 0
 
 class Direction(Enum):
-    NORTH = "git n"
+    NORTH = "n"
     SOUTH = "s"
     EAST = "e"
     WEST = "w"
