@@ -4,22 +4,27 @@ class gamemap:
         print("This is classa method.")
 
     def calculateValidatePositions(self):
-        print("This is classb method.")
+        GRID_SIZE = 10
+    while True:
+        try:
+            # Get user input for the X and Y coordinates
+            x = int(input(f"Enter the X coordinate (0 to {GRID_SIZE-1}): "))
+            y = int(input(f"Enter the Y coordinate (0 to {GRID_SIZE-1}): "))
 
-    def isValidPOsition(self):
-        print("This is classc method.")
+            if direction:'NORTH'
+            y +=1
+            if 0 <= y < GRID_SIZE:
+                return y
+            else: y -=1
 
-    def getTotalPositions(self):
-        print("This is classc method.")
+            # Check if the coordinates are within the grid boundaries
+            if 0 <= x < GRID_SIZE and 0 <= y < GRID_SIZE:
+                return x, y
+            else:
+                print("Coordinates are out of bounds. Please try again.")
+        except ValueError:
+            print("Invalid input. Please enter integers for coordinates.")
+    
 
-
-
-
-
-
-
-
-    name = ""
-
-    def __init__(self, character_name):
-        self.name = character_name
+    def get_position(self):
+        print("This is get_position method.")
