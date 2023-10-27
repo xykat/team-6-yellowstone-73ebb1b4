@@ -1,5 +1,6 @@
 from unittest import TestCase
 from levelup.controller import GameController
+from levelup.direction import Direction
 
 # THIS IS AN EXAMPLE UNIT TEST. 
 # All the unit tests for the Game Controller should go here
