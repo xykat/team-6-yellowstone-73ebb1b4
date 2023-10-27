@@ -1,6 +1,6 @@
 from levelup.position import Position
 from levelup.direction import Direction
-from levelup.map import Map
+from levelup.gamemap import GameMap
 class Character:
     name = ""
     current_position : Poistion = Poistion(-100, -100)
