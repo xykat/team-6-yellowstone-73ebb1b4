@@ -1,6 +1,8 @@
 import logging
 from dataclasses import dataclass
 from enum import Enum
+from levelup.character import Character
+
 
 DEFAULT_CHARACTER_NAME = "Character"
 
@@ -46,7 +48,9 @@ class GameController:
     def move(self, direction: Direction) -> None:
         # TODO: Implement move - should call something on another class
         # TODO: Should probably also update the game results
-        pass
+        self.character.move(direction)
+        self.status.current_position = (self.character.current_position.x, self.character.current_position.y)
+        self.status.move_count= self.status.move_count + 1
 
     def set_character_position(self, xycoordinates: tuple) -> None:
         # TODO: IMPLEMENT THIS TO SET CHARACTERS CURRENT POSITION -- exists to be testable
@@ -54,8 +58,9 @@ class GameController:
 
     def set_current_move_count(self, move_count: int) -> None:
         # TODO: IMPLEMENT THIS TO SET CURRENT MOVE COUNT -- exists to be testable
-        pass
 
+        pass
+        # +=
     def get_total_positions(self) -> int:
         # TODO: IMPLEMENT THIS TO GET THE TOTAL POSITIONS FROM THE MAP - - exists to be
         # testable
