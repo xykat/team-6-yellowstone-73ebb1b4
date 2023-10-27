@@ -1,3 +1,6 @@
+from levelup.position import Position
+#from typing import Tuple
+from levelup.direction import Direction
 class GameMap:
 
     def getPositions(self):
@@ -37,4 +40,4 @@ class GameMap:
 
             
             except ValueError:
-                    print("Invalid input. Please enter integers for coordinates.")
+                    print("Invalid input")
