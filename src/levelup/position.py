@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 class Position ():
 
     x = -100
@@ -13,13 +12,3 @@ class Position ():
             return True
         else:
             return False
-
-
-
-    
-=======
-class Position:
-    def startingPosition():
-        return null
-    
->>>>>>> 01e6142 (game controller update)
