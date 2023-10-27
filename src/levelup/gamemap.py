@@ -16,5 +16,25 @@ class GameMap:
                 if 0 <= y < 10:
                     y=y
                 else: y -=1
+
+                if direction:'SOUTH'
+                y -=1
+                if 0 <= y < 10:
+                    y=y
+                else: y +=1
+                
+                if direction:'EAST'
+                x -=1
+                if 0 <= x < 10:
+                    x=x
+                else: x +=1
+
+                if direction:'WEST'
+                x ==1
+                if 0 <= x < 10:
+                    x=x
+                else: x -=1
+
+            
             except ValueError:
-                print("Invalid input. Please enter integers for coordinates.")
+                    print("Invalid input. Please enter integers for coordinates.")
